@@ -21,8 +21,9 @@ if st.button('PREDICT'):
             disp = "Positive Sentiment!"
         elif(a == 'neg'):
             disp = "Negative Sentiment!"
+        st.write('The sentiment of given text is:', disp)
     else:
         st.write('Please enter text before clicking "PREDICT"')
     
-st.write('The sentiment of given text is:', disp)
+
     
